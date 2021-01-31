@@ -1,0 +1,21 @@
+
+*{
+  margin: 0;
+}
+@font-face{
+  font-family: 'iCielMedium';
+  src: local('iCielMedium'), url('./fonts/iCiel-Medium.ttf');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'iCielMedium';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
